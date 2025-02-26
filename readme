@@ -1,0 +1,142 @@
+Task Management System
+A Python-based Task Management System that demonstrates advanced programming skills and best practices. This program allows users to manage tasks with features like adding, viewing, marking as completed, deleting, saving, and loading tasks.
+
+Features
+Add Tasks: Add new tasks with a title and description.
+
+View Tasks: Display all tasks with their status (completed or pending).
+
+Mark Tasks as Completed: Mark specific tasks as completed.
+
+Delete Tasks: Remove tasks from the list.
+
+Save Tasks: Save tasks to a file for persistence.
+
+Load Tasks: Load tasks from a file.
+
+Error Handling: Robust input validation and error handling.
+
+Logging: Log system events for debugging and monitoring.
+
+Unit Tests: Includes unit tests for core functionality.
+
+Technologies Used
+Python: Core programming language.
+
+OOP: Object-Oriented Programming principles (encapsulation, inheritance, polymorphism).
+
+Logging: Built-in logging module for tracking events.
+
+Unit Testing: unittest module for testing functionality.
+
+File I/O: Save and load tasks to/from a file.
+
+Getting Started
+
+Prerequisites
+Python 3.x: Ensure Python 3 is installed on your system.
+
+VS Code (Optional): Recommended IDE for development.
+
+Installation
+Clone the Repository:
+
+git clone https://github.com/your-username/task-management-system.git
+
+cd task-management-system
+
+Run the Program:
+
+python main.py
+
+Run unit tests:
+
+python test_task.py
+
+Usage
+Running the Program
+
+Add a Task:
+
+Choose option 1 and enter the task title and description.
+
+View Tasks:
+
+Choose option 2 to display all tasks.
+
+Mark a Task as Completed:
+
+Choose option 3 and enter the title of the task to mark as completed.
+
+Delete a Task:
+
+Choose option 4 and enter the title of the task to delete.
+
+Save Tasks:
+
+Choose option 5 and enter a filename to save tasks.
+
+Load Tasks:
+
+Choose option 6 and enter a filename to load tasks.
+
+Exit:
+
+Choose option 7 to exit the program.
+
+File Structure
+
+task_manager_project/
+├── task.py            # Core logic (Task and TaskManager classes)
+├── test_task.py       # Unit tests for TaskManager
+├── main.py            # Main program for user interaction
+└── README.md          # Project documentation
+
+Example Workflow
+Add a task:
+
+Enter task title: Learn Python
+Enter task description: Master Python programming.
+
+View tasks:
+
+Learn Python (Pending): Master Python programming.
+
+Mark a task as completed:
+
+Enter task title to mark as completed: Learn Python
+
+Save tasks to a file:
+
+Enter filename to save tasks: tasks.txt
+
+Load tasks from a file:
+
+Enter filename to load tasks: tasks.txt
+
+Running Tests
+To ensure the program works as expected, run the unit tests:
+
+python test_task.py
+
+Contributions are welcome! If you'd like to contribute:
+
+Fork the repository.
+
+Create a new branch (git checkout -b feature/YourFeature).
+
+Commit your changes (git commit -m 'Add some feature').
+
+Push to the branch (git push origin feature/YourFeature).
+
+Open a pull request.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Author
+Paul Begg
+
+GitHub: Horizon-hover
+
+Email: horizon.hover@zohomail.eu
